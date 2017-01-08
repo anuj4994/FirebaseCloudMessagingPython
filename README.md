@@ -8,8 +8,12 @@ http://54.70.113.238:7001/sendMessage/
 
 parameters:
 RequestParams params  = new RequestParams();
+
 params.put("regId",<device registration id>);
+
 params.put("title","Response Added");
+
 params.put("apiKey",<your api key>);
+
 params.put("body","Response to your request has been added by admin. Please check as soon as possible.");
 
